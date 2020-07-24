@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TAB_Automation.TAB_Testing.TestBotPage"/>
+      <class name="TAB_Automation.TAB_Testing.BotUsagePage"/>
+      <class name="TAB_Automation.TAB_Testing.TABLoginPage"/>
+      <class name="TAB_Automation.TAB_Testing.AppTest"/>
+      <class name="TAB_Automation.TAB_Testing.LKPSearchPage"/>
+      <class name="TAB_Automation.TAB_Testing.UsageDashboardPage"/>
+      <class name="TAB_Automation.TAB_Testing.FAQPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

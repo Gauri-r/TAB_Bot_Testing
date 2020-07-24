@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71054" started-at="2020-07-23T19:17:02Z" finished-at="2020-07-23T19:18:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71054" started-at="2020-07-23T19:17:02Z" finished-at="2020-07-23T19:18:13Z">
+      <class name="TAB_Automation.TAB_Testing.TABLoginPage">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:TAB_Automation.TAB_Testing.TABLoginPage@6f7fd0e6]" name="initialization" is-config="true" duration-ms="17505" started-at="2020-07-23T19:17:02Z" finished-at="2020-07-23T19:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="loginPageNaviagation()[pri:0, instance:TAB_Automation.TAB_Testing.TABLoginPage@6f7fd0e6]" name="loginPageNaviagation" duration-ms="504" started-at="2020-07-23T19:17:20Z" finished-at="2020-07-23T19:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageNaviagation -->
+        <test-method status="PASS" signature="FAQNavigation()[pri:0, instance:TAB_Automation.TAB_Testing.TABLoginPage@6f7fd0e6]" name="FAQNavigation" duration-ms="29535" started-at="2020-07-23T19:17:20Z" depends-on-methods="TAB_Automation.TAB_Testing.TABLoginPage.loginPageNaviagation" finished-at="2020-07-23T19:17:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FAQNavigation -->
+        <test-method status="PASS" signature="LKPSearchNavigation()[pri:0, instance:TAB_Automation.TAB_Testing.TABLoginPage@6f7fd0e6]" name="LKPSearchNavigation" duration-ms="23461" started-at="2020-07-23T19:17:50Z" depends-on-methods="TAB_Automation.TAB_Testing.TABLoginPage.loginPageNaviagation" finished-at="2020-07-23T19:18:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LKPSearchNavigation -->
+      </class> <!-- TAB_Automation.TAB_Testing.TABLoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
